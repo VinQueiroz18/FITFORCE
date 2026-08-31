@@ -1,0 +1,56 @@
+#allPlanos{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#texto_planos{
+
+    display: flex;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 12px;
+}
+
+#texto_planos h1{
+
+    font-size: 40px;
+}
+
+#texto_planos span{
+
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
+
+#opFiltro{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.selectFiltro{
+
+    border: 1px solid black;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+hr{
+
+    margin-bottom: 40px;
+
+}
+
+
