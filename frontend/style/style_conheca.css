@@ -1,0 +1,143 @@
+.pagina_conheca{
+
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.banner_conheca{
+
+    width: 100%;
+    height: 500px;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url("/imgs/image\ 13.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 5% 8%;
+}
+
+.banner_texto{
+
+    width: 100%;
+    max-width: 650px;
+    color: white;
+}
+
+.banner_texto h1{
+
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner_texto h2{
+
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner_texto span{
+
+    color: #CE1D2D;
+}
+
+.banner_texto p{
+
+    font-size: 17px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.conheca_conteudo{
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.conheca_topo{
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.conheca_info{
+
+    width: 100%;
+    max-width: 575px;
+}
+
+.conheca_info h2{
+
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.conheca_info span{
+
+    color: #CE1D2D;
+}
+
+.conheca_info p{
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.conheca_card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.conheca_card.invertido{
+
+    flex-direction: row-reverse;
+}
+
+.conheca_card_texto{
+
+    width: 100%;
+    max-width: 570px;
+}
+
+.conheca_card_texto h2{
+
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.conheca_card_texto span{
+
+    color: #CE1D2D;
+}
+
+.conheca_card_texto p{
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.conheca_card_imagem img{
+
+    width: 100%;
+    max-width: 580px;
+    border-radius: 10px;
+}

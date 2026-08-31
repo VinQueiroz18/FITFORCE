@@ -1,0 +1,130 @@
+.banner_uni{
+
+    width: 100%;
+    height: 500px;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url("/imgs/imageFundoUni.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 5% 8%;
+}
+
+.banner_texto{
+
+    width: 100%;
+    max-width: 650px;
+    color: white;
+}
+
+.banner_texto h1{
+
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner_texto h2{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.banner_texto span{
+
+    color: #CE1D2D;
+}
+
+#busca_uni{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#busca_uni button{
+
+    width: 260px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    border: 0;
+    background-color: #E94B4B;
+    color: white;
+}
+
+.busca_barra{
+
+    width: 1265px;
+    height: 55px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    padding: 10px;
+    color: gray;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.uni_encont{
+
+    display: flex;
+    padding-left: 90px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+main hr{
+
+    width: 1560px;
+    margin-left: 90px;
+}
+
+.card_uni{
+
+    width: 730px;
+    height: 545px;
+    padding: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+#unidades{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.card_uni button{
+
+    width: 680px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    border: 0;
+    background-color: #E94B4B;
+    color: white;
+}
+
+.card_uni h4{
+
+    font-size: 35px;
+    padding: 10px;
+}
+
+.card_uni p{
+
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 10px;
+}
