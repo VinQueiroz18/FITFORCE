@@ -1,1 +1,8 @@
+# Arquivos de Sistema
 .DS_STORE
+
+# Váriaveis de Ambiente
+.env
+
+# Dependências
+node_modules/
